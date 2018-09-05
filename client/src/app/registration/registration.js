@@ -1,7 +1,7 @@
 angular.module('registration', ['event']).controller('registrationController', ['$scope', '$http', '$resource', '$log', 'eventService', function ($scope, $http, $resource, $log, eventService) {
     $scope.showRegForm = true;
     $scope.showRegResult = false;
-    
+
 
     $scope.submit = function () {
         $http({
@@ -19,7 +19,9 @@ angular.module('registration', ['event']).controller('registrationController', [
                     isStudent: $scope.isStudent,
                     isVegetarian: $scope.isVegetarian,
                     noOfAdults: Number($scope.noOfAdults),
-                    noOfChildren: Number($scope.noOfChildren),
+                    noOfChildren0To3: Number($scope.noOfChildren0To3),
+                    noOfChildren4To12: Number($scope.noOfChildren4To12),
+                    noOfChildren12Above: Number($scope.noOfChildren12Above),
                     eventFee: $scope.eventFee,
                     sponsorshipCategory: $scope.sponsorshipCategory,
                     specialNote: $scope.specialNote
@@ -49,6 +51,22 @@ angular.module('registration', ['event']).controller('registrationController', [
     $scope.reset = function () {
         $scope.showRegForm = true;
         $scope.showRegResult = false;
+        $scope.showMember = false;
+        $scope.showNonMember = false;
+        $scope.showRestOfRegistrationPage = false;
+
+    };
+
+    $scope.handleRadioClick = function(){
+        if ($scope.isMember) {
+          $scope.showMember = true;
+          $scope.showNonMember = false;
+          $scope.showRestOfRegistrationPage = true;
+        } else {
+          $scope.showNonMember = true;
+          $scope.showMember = false;
+          $scope.showRestOfRegistrationPage = true;
+        }
     };
 
 }]);

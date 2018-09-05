@@ -319,18 +319,66 @@
       "DP":{
          "name":"Durga Puja 2018",
          "isCurrentEvent":"Y",
-         "venue":"",
-         "date":"",
+         "venue":"Short Pump Middle School",
+         "date":"October 12th to 14th",
          "time":"10am",
          "code":"DP",
          "address":{
-            "street":"",
-            "city":"",
-            "state":"",
-            "zip":""
+           "street":"4701 Pouncey Tract Rd",
+           "city":"Glen Allen",
+           "state":"VA",
+           "zip":"23059"
          },
          "lastOnlineDateRegistration":"10-11-2018 23:59:00",
          "committeeMembers":{
+            "pujaCommittee":{
+               "htmlLabel":"Pujo",
+               "members":"Baishakhy Chakraborty, Madhumita Chatterjee, Paromita Ganguly"
+            },
+            "foodCommittee":{
+               "htmlLabel":"Food",
+               "members":"Reshmi Ghosh, Rupanjana Karanjai, Sanchita Dasgupta, Soumik Das, Soumyajit Ray, Tushar Ganguly"
+            },
+            "culturalCommittee":{
+               "htmlLabel":"Cultural",
+               "members":"Debopriyo Mitra, Sataroopa Bannerjee, Tapabrata Pal"
+            },
+            "pujaDecorations":{
+               "htmlLabel":"Decorations",
+               "members":"Debarati Pradhan, Indrani Suman, Sanghamitra Gayali"
+            },
+            "logisticsTeam":{
+               "htmlLabel":"Logistics",
+               "members":"Abhishek Ghosh,Arjoo Bandopadhyay, Basab Choudhury, Rahul Moray"
+            },
+            "facilitiesCoordinator":{
+               "htmlLabel":"Sound and Light",
+               "members":" Atanu Saha, Samit Majumdar, Subhadip Das "
+            },
+            "registrationAndFrontDesk":{
+               "htmlLabel":"Finance and Registration",
+               "members":" Atanu Advharyu, Parijat Bannerjee, Rupa Bandopadhyay"
+            },
+            "brochureCommittee":{
+               "htmlLabel":"Brochure",
+               "members":"Bhaswati Ghosh, Mrinal Gayali"
+            },
+            "websiteCommittee":{
+               "htmlLabel":"Website",
+               "members":"Abhishek Ghosh,Pritam Sarkar,Soumyajit Ray,Avik Roy, Shirsho Gupta"
+            },
+            "eventMarketingCommittee":{
+               "htmlLabel":"Event Marketing",
+               "members":"Avik Roy,Soumya Chatterjee,Soumyajit Ray"
+            },
+            "fundDevelopmentCommittee":{
+               "htmlLabel":"Fund Development",
+               "members":"Abhishek Ghosh, Avik Roy, Shu Dasgupta"
+            },
+            "posterCommittee":{
+               "htmlLabel":"Posters",
+               "members":"Shoumik Banerjee"
+            }
          },
          "earlyBird":{
             "date":"09-30-2018 23:59:59",
